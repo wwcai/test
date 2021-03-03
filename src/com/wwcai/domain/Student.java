@@ -2,6 +2,9 @@ package com.wwcai.domain;
 
 public class Student {
     private String id;
+    private String name;
+    private String email;
+    private String address;
 
     public String getId() {
         return id;
@@ -10,9 +13,6 @@ public class Student {
     public void setId(String id) {
         this.id = id;
     }
-
-    private String name;
-    private String email;
 
     public String getName() {
         return name;
